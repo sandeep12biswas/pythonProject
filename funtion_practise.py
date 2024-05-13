@@ -21,3 +21,9 @@ def lesser_of_tow_number(a, b):
 
 output = lesser_of_tow_number(2, 8)
 print(f'output is :{output}')
+
+"""
+Next section
+"""
+
+
