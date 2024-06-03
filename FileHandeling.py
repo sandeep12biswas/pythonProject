@@ -47,3 +47,5 @@ def myfunc(*args):
     return resultant_list
 
 print(myfunc(-2,0,1,2,3,5,6,8,12,11))
+
+print(f"module name is {__name__}")
