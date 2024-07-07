@@ -1,5 +1,6 @@
 # Comments can be given in this way starting with # at the beginning
 
+
 print("Hello Python and hello PCAP")
 a = 50
 print(type(a))
