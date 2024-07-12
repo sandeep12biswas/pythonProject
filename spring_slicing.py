@@ -26,3 +26,4 @@ another_list.reverse()
 final_list = my_list[2:] + another_list[2:]
 
 print(final_list)
+
