@@ -16,3 +16,9 @@ print(my_list[0].get('Bill'))
 bill_salary = f"Bill's salary is {my_list[0].get('Bill')}"
 
 print(bill_salary)
+
+employee = {"sam" : 10, "maya": 20, "Mou" :30}
+
+for k,v in employee.items():
+    print(f"Dictionary key is {k} and value is {v}")
+
