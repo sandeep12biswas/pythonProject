@@ -3,6 +3,8 @@
 This program will generate random password for users based ont he input the user will provide
 '''
 
+import random as rd
+
 alpha = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v',
          'w', 'x', 'y']
 num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
@@ -28,7 +30,7 @@ if first_choice == '2':
 print("Please provide the password length! :")
 pwd_length = input()
 while not pwd_length.isnumeric():
-    print(f"please enter valid length! {pwd_length} is not valid integer value")
+    print(f"please enter valid length! '{pwd_length}' is not valid integer value")
     pwd_length = input()
 
 print("Use upper case letter! (Y/N)")
@@ -49,3 +51,5 @@ upper_case = input()
 while upper_case.upper() != 'y'.upper() and upper_case.upper() != 'n'.upper():
     print("Please select Y or N :")
     upper_case = input()
+
+print(f"You have selecetd the following option as follows, Generate Password : Yes, Password lenght {pwd_length}, Use digit {u}")
