@@ -26,7 +26,9 @@ while not ext.upper() == "EXIT":
     while not option_lst.__contains__(player2.upper()):
         player2 = input("Please enter any value from  (Rock, Paper, Scissor)) (Player 2):")
 
-    if player1.upper() == "ROCK" and player2.upper() == "SCISSOR" :
+    if player1.upper() == player2.upper() :
+        print(f"It's a tie, try again !!")
+    elif player1.upper() == "ROCK" and player2.upper() == "SCISSOR" :
         print(f"Player 1 wins !!")
     elif player1 == "SCISSOR" and player2.upper() == "PAPER":
         print(f"Player 1 wins !!")
