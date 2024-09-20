@@ -4,7 +4,7 @@ Alice was thrilled. The course was taught by a well-known programmer who made th
 longest_string = ''
 
 for char in sample_story.split():
-    print(f"Length of {char} is {len(char)}")
+   # print(f"Length of {char} is {len(char)}")
     if len(longest_string) < len(char):
         longest_string = char
 
