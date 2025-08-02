@@ -17,7 +17,7 @@ class User:
         print("this is class method")
 
     @staticmethod
-    def another_method(self):
+    def another_method():
         print("This is static method")
 
 
